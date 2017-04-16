@@ -1,0 +1,99 @@
+<TableLayout android:stretchColumns="*"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="#EAE9E9"
+        android:layout_margin="1px"
+        android:id="@+id/tableRow1">
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_Name"
+            android:text="N"
+            android:textColor="#333333"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_Match"
+            android:text="M"
+            android:textColor="#333333"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_Inning"
+            android:text="I"
+            android:textColor="#333333"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_Run"
+            android:text="R"
+            android:textColor="#333333"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_Wicket"
+            android:text="W"
+            android:textColor="#333333"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_BestRun"
+            android:text="BR"
+            android:textColor="#333333"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_BestBowling"
+            android:text="BB"
+            android:textColor="#333333"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/tv_Average"
+            android:text="A"
+            android:textColor="#333333"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+    </TableRow>
+
+
+
+</TableLayout>
